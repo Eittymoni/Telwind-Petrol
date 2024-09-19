@@ -39,27 +39,26 @@ const Footer = () => {
 
             </div>
 
-            <div className="lg:w-1/4 w-full  font-pops items-center">
+            <div className="lg:w-1/4  w-1/2  font-pops items-center float-right pt-4 lg:pt-0">
             <h3 className="text-[#fff] text-center lg:text-[16px] text-[14ox] font-bold "> Company</h3>
             <ul>
                 
-                <li className='text-[#fff] text-center text-[14px] pt-3'>Home</li>
-                <li className='text-[#fff] text-center text-[14px] pt-2'> About</li>
-                <li className='text-[#fff] text-center text-[14px] pt-2'> Services</li>
-                <li className='text-[#fff] text-center text-[14px] pt-2'>Gallery</li>
+                <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-3'>Home</li>
+                <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-2'> About</li>
+                <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-2'> Services</li>
+                <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-2'>Gallery</li>
             </ul>
             </div>
-            <div className="lg:w-1/4 w-full  font-pops items-center">
+            <div className="lg:w-1/4  w-1/2  font-pops items-center pt-4 lg:pt-0 ">
             <h3 className="text-[#fff] text-center lg:text-[16px] text-[14px] font-bold "> Other</h3>
             <ul>
-                
-                <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-3'>Blog</li>
+                <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-2'>Blog</li>
                 <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-2'> Contact</li>
                 <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-2'> Terms & Conditions</li>
                 <li className='text-[#fff] text-center lg:text-[14px] text-[12px] pt-2'>Privacy Policy</li>
             </ul>
             </div>
-            <div className=" w-full lg:w-1/4 text-center lg:text-start">
+            <div className=" w-full lg:w-1/4 text-center lg:text-start pt-4 lg:pt-0">
             <h3 className="text-[#fff] font-pops lg:text-[16px] text-[14px] font-bold pt-3">Certificate</h3>
             <div className=" flex justify-center lg:justify-start gap-2">
                 <div className="pt-3"> <img src={cert1Img} alt="" /></div>    

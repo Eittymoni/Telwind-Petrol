@@ -14,13 +14,13 @@ const Navbar = () => {
                 <img src={Logo} alt="" />
                 </div>
                 <div className="w-3/4">
-                <ul className={`lg:flex lg:justify-end text-center lg:static absolute  z-[2] top-0 left-0 ease-in-out duration-300  ${show == true ? " right-0  top-[128px] md:top-[150px] w-[50%]" : "left-[-100%] w-full"}`}>
-                    <li className='font-pops font-semibold text-[16px] text-white  hover:text-[#282828] duration-300 ease-in-out p-4 ]'> Home</li>
-                    <li className='font-pops font-semibold text-[16px] text-white hover:text-[#282828] duration-300 ease-in-out p-4'> About</li>
-                    <li className='font-pops font-semibold text-[16px] text-white hover:text-[#282828] duration-300 ease-in-out p-4'> Services</li>
-                    <li className='font-pops font-semibold  text-[16px] text-white hover:text-[#282828] duration-300 ease-in-out p-4'> Gallery</li>
-                    <li className='font-pops font-semibold  text-[16px] text-white hover:text-[#282828] duration-300 ease-in-out p-4'> Blog</li>
-                    <li className='font-pops font-semibold  text-[16px] text-white p-4 border-2 border-[#ffff] rounded-full  hover:text-[#282828] duration-300 ease-in-out hover:border-[#282828]'> Contact</li>
+                <ul className={`lg:flex lg:justify-end text-center lg:static absolute  z-[2] top-0 left-0 ease-in-out duration-300  ${show == true ? " right-0  top-[128px] md:top-[150px] w-[30%]" : "left-[-100%] w-full"}`}>
+                    <li className='font-pops font-semibold lg:text-[16px] text-[12px] text-white  hover:text-[#282828] duration-300 ease-in-out lg:p-4 p-1 ]'> Home</li>
+                    <li className='font-pops font-semibold lg:text-[16px] text-[12px] text-white hover:text-[#282828] duration-300 ease-in-out lg:p-4 p-1'> About</li>
+                    <li className='font-pops font-semibold lg:text-[16px] text-[12px] text-white hover:text-[#282828] duration-300 ease-in-out lg:p-4 p-1'> Services</li>
+                    <li className='font-pops font-semibold lg:text-[16px] text-[12px] text-white hover:text-[#282828] duration-300 ease-in-out lg:p-4 p-1'> Gallery</li>
+                    <li className='font-pops font-semibold lg:text-[16px] text-[12px] text-white hover:text-[#282828] duration-300 ease-in-out lg:p-4 p-1'> Blog</li>
+                    <li className='font-pops font-semibold lg:text-[16px] text-[12px] text-white lg:p-4 p-2 border-2 border-[#ffff] rounded-full  hover:text-[#282828] duration-300 ease-in-out hover:border-[#282828]'> Contact</li>
                 </ul>
                 </div>
                 <div onClick={() => setShow(!show)}
