@@ -13,6 +13,14 @@ export default {
         'pops': ['Poppins', 'sans-serif'],
         
       },
+      backgroundImage:{
+        'ban': "url('./assets/banner.png')",
+        'ser1':"url('./assets/service1.png')",
+        'ser2':"url('./assets/service2.png')",
+        'ser3':"url('./assets/service3.png')",
+        'lern':"url('./assets/learn.png')",
+      },
+      
     },
   },
   plugins: [],
