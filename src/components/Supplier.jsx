@@ -18,10 +18,10 @@ const Supplier = () => {
         </div>
        </div>
        <div className="lg:flex md:flex justify-around pb-[50px]">
-        <div className="lg:w-1/4 md:w-1/3 w-full px-[15px] pb-2">< img src={pic1} alt="" /></div>
-        <div className="lg:w-1/4 md:w-1/3 w-full px-[15px] pb-2"><img src={pic2} alt="" /></div>
-        <div className="lg:w-1/4  md:w-1/3 w-full px-[15px] pb-2"><img src={pic3} alt="" /></div>
-        <div className="lg:w-1/4  md:w-1/3 w-full px-[15px] pb-2"><img src={pic4} alt="" /></div>
+        <div className="lg:w-1/4 md:w-1/3 w-full px-[10px] pb-2">< img src={pic1} alt="" /></div>
+        <div className="lg:w-1/4 md:w-1/3 w-full px-[10px] pb-2"><img src={pic2} alt="" /></div>
+        <div className="lg:w-1/4  md:w-1/3 w-full px-[10px] pb-2"><img src={pic3} alt="" /></div>
+        <div className="lg:w-1/4  md:w-1/3 w-full px-[10px] pb-2"><img src={pic4} alt="" /></div>
 
        </div>
 
